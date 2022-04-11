@@ -38,4 +38,5 @@ Note:
 
 ## Reference
 [1] Optimal Brain Damage, Yann Lecun, 1990
+
 [2]https://jacobgil.github.io/deeplearning/pruning-deep-learning
