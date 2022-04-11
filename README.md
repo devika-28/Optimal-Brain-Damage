@@ -3,6 +3,8 @@
 ## Abstract:
 Optimally removing the weights from a neural network without affecting it accuracy, or by trading off the evaluation speed and cost by having a minimum impact on the accuracy. Because an optimized model is the one which is efficient, fast and inexpensive.
 
+![image](https://user-images.githubusercontent.com/41909437/162667656-b6da25f0-eb94-460b-b948-9bbba776be70.png)
+
 ## Methods:
 Given a layer of a neural network ReLU(xW) are two well-known ways to prune it:
 1. Weight pruning: set individual weights in the weight matrix to zero. This corresponds to deleting connections as in the figure above.
@@ -17,7 +19,9 @@ Here to achieve sparsity of k% we rank the columns of a weight matrix according 
 It was my first time, when I was working with pruning. So learning about the concept in itself was very intriguing for me. 
 
 #### Do the curves differ
+
 ![image](https://user-images.githubusercontent.com/41909437/162666578-5fc79381-dce8-4f78-8557-89ab9ee834af.png)
+
 Form the above image we can observe that unit pruning perform better than weight prunning. I have a theory that unit pruning has a more structured way of deleting the weights, which is the reason.
 
 #### Do you have any hypotheses as to why we are able to delete so much of the network without hurting performance
